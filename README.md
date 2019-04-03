@@ -15,11 +15,13 @@ Watch the video here: https://drive.google.com/file/d/1J5SZ1SRvic-WyU6JtV3EPVMWC
 TECHNOLOGIES USED
 Javascript
 Nodejs
+
 Node packages:
 Node-Spotify-API
 Request
 Moment
 DotEnv
+
 APIs used:
 Bands in Town
 OMDB
