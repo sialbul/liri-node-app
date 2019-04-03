@@ -1,41 +1,27 @@
 # liri-node-app
+LIRI is a Language Interpretation and Recognition Interface. LIRI is a command line node app that takes in parameters and gives back data. The user has the option of using four commands (listed below) in conjuntion with specific parameters associated with the commands. The Commands are:
 
-Liri
-LIRI Bot for Week #10 Homework
-About
-LIRI is a Language Interpretation and Recognition Interface. LIRI will be a command line node app that takes in parameters and gives you back data.
+concert-this
 
-What it does
+spotify-this-song
 
+movie-this
 
-Spotify
-node liri.js spotify-this-song <insert song title>
+do-what-it-says
 
-This will show the following information about the song in your terminal/bash window
+Video Guide
+Watch the video here: https://drive.google.com/file/d/1J5SZ1SRvic-WyU6JtV3EPVMWC7X-k1qP/view?usp=sharing
 
-Artist(s)
-The song's name
-A preview link of the song from Spotify
-The album that the song is from
-If no song is provided then your program will default to "The Sign" by Ace of Base
-
-Movies
-node liri.js movie-this <insert movie title>
-
-This will output the following information to your terminal/bash window:
-
-Title of the movie.
-Year the movie came out.
-IMDB Rating of the movie.
-Country where the movie was produced.
-Language of the movie.
-Plot of the movie.
-Actors in the movie.
-Rotten Tomatoes Rating.
-Rotten Tomatoes URL.
-If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody.'
-
-Do What It Says
-node liri.js do-what-it-says
-
-Using the fs Node package, LIRI will take the text inside of random.txt and then use it to call one of LIRI's commands.
+TECHNOLOGIES USED
+Javascript
+Nodejs
+Node packages:
+Node-Spotify-API
+Request
+Moment
+DotEnv
+APIs used:
+Bands in Town
+OMDB
+Git
+GitHub
